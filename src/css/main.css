@@ -1,0 +1,51 @@
+.Main {
+  text-align: center;
+  transition: background-color 0.5s ease;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: Arial, sans-serif;
+}
+*/ h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.port {
+  font-weight: bold;
+}
+
+.item-content {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  z-index: 99;
+}
+
+.port-item {
+  width: 20%;
+  pdding: 10px;
+}
+
+/* .Main {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    #ff7e5f,
+    #feb47b
+  ); 
+  background-size: 200% 100%; 
+  transition: background-position 0.5s ease;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  height: 100vh; 
+}
+
+h1 {
+  color: #333;
+}
+
+div {
+  color: #666;
+} */
