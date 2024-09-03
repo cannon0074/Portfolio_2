@@ -12,19 +12,20 @@ const Main = () => {
       <div className="Main">
         <div>
           <h1>ポートフォリオ置き場（工事中）</h1>
+          <div className="title">-アプリ-</div>
           <div className="port">
             <div className="item-content">
               <a href="https://cannon0074.github.io/verbose-garbanzo/">
                 <img className="port-item" src={title1} alt="" />
               </a>
               <div>
-                High&Low
+                【High&Low】
                 <br />
                 記念すべき第1作目。
                 <br />
                 デザインをごまかすためにいらすとやさんの素材を使用しています。
                 <br />
-                HTML/CSS,Javascriptで作成。
+                HTML/CSS,JavaScriptで作成。
               </div>
             </div>
             <div className="item-content">
@@ -32,22 +33,21 @@ const Main = () => {
                 <img className="port-item" src={title2} alt="" />
               </a>
               <div>
-                MIDI再生プレイヤー（仮）
+                【MIDI再生プレイヤー（仮）】
                 <br />
-                プログラミングスクールの卒業制作で作成しました。
+                2作目。プログラミングスクールの卒業制作で作成しました。
                 <br />
                 Windows98風のデスクトップとIE5風のブラウザを再現しています。（未完成）
                 <br />
-                HTML/CSS,Reactで作成
+                HTML/CSS,Reactで作成。
               </div>
             </div>
-
             <div className="item-content">
               <a href="https://high-and-low-v2.vercel.app">
                 <img className="port-item" src={title3} alt="" />
               </a>
               <div>
-                High&Low V2
+                【High&Low V2】
                 <br />
                 3作目。
                 <br />
@@ -55,7 +55,30 @@ const Main = () => {
                 <br />
                 デザインとゲーム内の動きを凝ったものにして、背景画像はコードペンから持ってきました。
                 <br />
-                HTML/CSS,Reactで作成
+                音が鳴ります。 <br />
+                HTML/CSS,Reactで作成。
+              </div>
+            </div>
+          </div>
+          <div className="title">-記事-</div>
+          <div className="port">
+            <div className="item-content">
+              <a
+                className="port-zenn"
+                href="https://zenn.dev/reasemi/articles/1abfa311e6633d"
+              >
+                ReaSemi(Vol.4) 【fetch,promise,useEffect編】
+              </a>
+              <div>
+                JavaScriptのfetch,promiseと、
+                <br />
+                ReactのuseEffectについて初心者向けに書いた記事です
+                <br />
+                生徒間の勉強会用に作成しました。
+                <br />
+                これを見ればReactでfetchが使えるようになるはず…？
+                <br />
+                <br />
               </div>
             </div>
           </div>

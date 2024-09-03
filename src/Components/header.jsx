@@ -8,7 +8,6 @@ function Header() {
   return (
     <>
       <div className="header">
-        <div></div>
         <nav className="Nav">
           <ul className="nav-list">
             <li className="header-content">
