@@ -39,7 +39,7 @@ const Main = () => {
                 <br />
                 Windows98風のデスクトップとIE5風のブラウザを再現しています。（未完成）
                 <br />
-                HTML/CSS,Reactで作成。
+                HTML/CSS,Reactで作成。音が出ます。
               </div>
             </div>
             <div className="item-content">
@@ -55,7 +55,7 @@ const Main = () => {
                 <br />
                 デザインとゲーム内の動きを凝ったものにして、背景画像はコードペンから持ってきました。
                 <br />
-                音が鳴ります。 <br />
+                音が出ます。 <br />
                 HTML/CSS,Reactで作成。
               </div>
             </div>
