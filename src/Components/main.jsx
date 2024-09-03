@@ -18,9 +18,13 @@ const Main = () => {
                 <img className="port-item" src={title1} alt="" />
               </a>
               <div>
+                High&Low
+                <br />
                 記念すべき第1作目。
                 <br />
                 デザインをごまかすためにいらすとやさんの素材を使用しています。
+                <br />
+                HTML/CSS,Javascriptで作成。
               </div>
             </div>
             <div className="item-content">
@@ -28,7 +32,7 @@ const Main = () => {
                 <img className="port-item" src={title2} alt="" />
               </a>
               <div>
-                第2作目。
+                MIDI再生プレイヤー（仮）
                 <br />
                 プログラミングスクールの卒業制作で作成しました。
                 <br />
@@ -41,7 +45,9 @@ const Main = () => {
                 <img className="port-item" src={title3} alt="" />
               </a>
               <div>
-                第3作目。
+                High&Low V2
+                <br />
+                3作目。
                 <br />
                 1作目のリメイク。
                 <br />
