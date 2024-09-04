@@ -30,34 +30,9 @@ p {
   align-items: center;
 }
 
-.about-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgb(0, 0, 50, 70%);
-  border: 1px solid;
-  border-color: rgb(0, 0, 255);
-  margin: 10px;
-  padding: 10px;
-  width: 60%;
-}
-
 .neko {
   width: 80px;
   border-radius: 50%;
-}
-
-.port {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: rgb(0, 0, 50, 70%);
-  border: 1px solid;
-  border-color: rgb(0, 0, 255);
-  margin: 10px;
-  padding: 10px;
-  width: 60%;
 }
 
 .port-zenn {
@@ -76,6 +51,58 @@ p {
   pdding: 10px;
 }
 
+@media screen and (min-width: 700px) {
+  .about-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 50, 70%);
+    border: 1px solid;
+    border-color: rgb(0, 0, 255);
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+  }
+
+  .port {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(0, 0, 50, 70%);
+    border: 1px solid;
+    border-color: rgb(0, 0, 255);
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 50, 70%);
+    border: 1px solid;
+    border-color: rgb(0, 0, 255);
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .port {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(0, 0, 50, 70%);
+    border: 1px solid;
+    border-color: rgb(0, 0, 255);
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+}
 /* .Main {
   text-align: center;
   background: linear-gradient(

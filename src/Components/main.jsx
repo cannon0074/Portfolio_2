@@ -101,7 +101,7 @@ const Main = () => {
                   className="port-zenn"
                   href="https://zenn.dev/reasemi/articles/1abfa311e6633d"
                 >
-                  ReaSemi(Vol.4) 【fetch,promise,useEffect編】
+                  【fetch,promise,useEffect編】
                 </a>
                 <div>
                   JavaScriptのfetch,promiseと、
