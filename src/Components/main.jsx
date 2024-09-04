@@ -15,7 +15,7 @@ const Main = () => {
           <h1>★ポートフォリオ置き場（工事中）★</h1>
           <div className="about">
             <h1 id="about">自己紹介</h1>
-            <div className="port">
+            <div className="about-wrap">
               <div className="img-box">
                 <img className="neko" src={neko} alt="" />
               </div>
