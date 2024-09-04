@@ -11,16 +11,16 @@ function Header() {
         <nav className="Nav">
           <ul className="nav-list">
             <li className="header-content">
-              <a href="">test</a>
+              <a href="#about">自己紹介</a>
             </li>
             <li className="header-content">
-              <a href="">test</a>
+              <a href="#port">制作物</a>
             </li>
             <li className="header-content">
-              <a href="">test</a>
+              <a href="#">???</a>
             </li>
             <li className="header-content">
-              <a href="">test</a>
+              <a href="#">???</a>
             </li>
           </ul>
         </nav>
