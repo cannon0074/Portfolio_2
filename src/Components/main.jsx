@@ -29,6 +29,13 @@ const Main = () => {
               <br />
               最近はセキュリティの勉強をTryHackMeで実施してます。
               <br />
+              <a
+                href="https://tryhackme.com/p/CNo.39"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                【TryHackMeプロフィール】
+              </a>
               <br />
               自分の制作したものをここに置いておきます。
               <br />
