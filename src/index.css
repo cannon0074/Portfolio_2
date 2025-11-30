@@ -9,6 +9,7 @@
   background-image: url("./img/イラスト4.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center bottom;
   background-attachment: fixed;
 
   font-synthesis: none;
